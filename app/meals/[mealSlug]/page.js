@@ -15,7 +15,7 @@ if (!meal) {
 <>
   <header className={classes.header}>
     <div className={classes.image}>
-      <Image src={meal.image} fill/>
+      <Image src={meal.image} alt='image' fill/>
     </div>
     <div className={classes.headerText} alt = {meal.title}>
       <h1>{meal.title}</h1>
